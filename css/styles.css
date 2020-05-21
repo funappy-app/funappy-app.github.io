@@ -1,0 +1,75 @@
+
+.header_name {
+  background-color: #4CB2D4;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 130%;
+  color: whitesmoke;
+}
+.content-container{
+  padding-top: 30px;
+  text-align: center;
+}
+.img-contact{
+  height: 120px;
+  width: 120px;
+}
+img{
+  display: inline-block;
+}
+p{
+  margin: auto;
+}
+.section-container{
+  margin-top:30px;
+  margin-bottom: 70px;
+}
+.header_menu {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 46, ../sass/style.scss */
+.header_menu ul {
+  list-style: none;
+  font-size: 1.4rem;
+}
+/* line 50, ../sass/style.scss */
+.header_menu ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+/* line 54, ../sass/style.scss */
+.header_menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 70%;
+
+}
+.container-each-contact{
+  position: relative;
+}
+.container-each-contact a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+.work-image-container{
+  width:100%; 
+  height: 10rem; 
+  text-align: center;
+}
+.work-image{
+  height: 10rem; 
+  width: auto; 
+  align-items: center;
+}
